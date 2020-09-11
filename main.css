@@ -1,4 +1,100 @@
 /* cia bus stilius */
 body {
     background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+    body > header {
+    background-color: yellow;
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2 );
+    margin-top: 50px;
+    
+    }
+        header > img {
+
+                display: inline-block;
+                float: left;
+                height: 60px;
+                }
+                nav {
+                    display: inline-block;
+                    float: right;
+                    margin-top: 5px;
+
+
+                }
+                a {
+                    display: inline-block;
+                    float: left;
+                    color: gray;
+                    margin-left: 10px;
+                    border: 5px solid transparent;
+                    padding: 5px;
+                    line-height: 20px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    margin-top: 5px;
+                    border-radius: 25px;
+                }
+
+                a:last-of-type {
+                    border: 5px solid gray;
+                    margin-top: 0;
+                }
+          /* .classA {
+                margin-top: 25px;
+                display: inline-block;  
+                margin-left: 400px;
+                
+            }
+            .classA>*{
+                    color: darkorange;
+                    margin-left: 30px;
+
+
+            } */
+                main {
+                display: inline-block;
+        
+        width: 1000px;
+        margin-top: 100px;
+        
+        margin-left: calc((100% - 1000px) / 2 );
+    }
+        .sectionA {
+            vertical-align: top;
+            display: inline-block;
+            width: 49%;
+            /* text-align: center; */
+        }
+        .sectionB {
+            vertical-align: top;
+            display: inline-block;
+            width: 49%;
+            /* text-align: center; */
+        }
+           .sectionA>*{
+            color: gray;
+            display: block;
+            margin-left: 45px;
+           }
+        
+        h1 {
+            display: inline-block;
+            font-size: 80px;
+            margin: 0;
+          
+            /* width: 40%; */
+        }
+        p {
+            display: inline-block;
+            font-size: 35px;
+            margin: 0;
+        }
+        #mergaite {
+            display: inline-block;
+            width: 100%;
+            float: right;
+        }
